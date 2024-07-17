@@ -1,0 +1,18 @@
+Methods for Defining JavaScript Objects
+
+Using an Object Literal
+Using the new Keyword
+Using an Object Constructor
+Using Object.assign()
+Using Object.create()
+Using Object.fromEnties()
+
+
+JavaScript Object Literal
+An object literal is a list of property names:values inside curly braces {}.
+
+{firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"};
+
+
+Note:
+An object literal is also callled an object initializer.
