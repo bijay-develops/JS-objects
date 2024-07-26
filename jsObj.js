@@ -96,10 +96,11 @@ function PersonC(first, last, age, sex){
     this.lastName = last;
     this.age = age;
     this.sex = sex;
+    this.nationality = "Nepalese";
 }
 //Creating two person objects 
-const myMother = new PersonC("Kanta ", "B.K.", 45, "Female");
+const myMother = new PersonC("Kanta ", "B.K.", 45, "Female",);
 const myFather = new PersonC("Indra ", "B.K.", 57, "Male");
 
 //Display
-document.getElementById("demo4").innerHTML = "My father is " + myFather.age + ". My mother is " + myMother.age + "."; 
+document.getElementById("demo4").innerHTML ="My Father and Mother, both are " + myFather.nationality + ". " +  "My father is " + myFather.age + ". My mother is " + myMother.age + "."; 
